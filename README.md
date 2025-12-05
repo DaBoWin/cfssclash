@@ -1,6 +1,7 @@
 # CF SS + YAML Worker
 
-基于老王cfss项目https://github.com/eooce/Cloudflare-proxy改造，感谢老王。
+基于老王cfss改造，项目地址：https://github.com/eooce/Cloudflare-proxy
+感谢老王。
 
 `worker.js` 是一个 Cloudflare Worker，提供 Shadowsocks 以及基于 YAML 的订阅输出：
 
