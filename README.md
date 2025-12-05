@@ -9,6 +9,9 @@
 - **/yaml/<UUID>**：输出带有完整节点列表的 YAML 配置，自动为每个节点生成唯一名称，避免客户端因重复命名报错。
 - **/你的UUID**：提供管理界面，可在浏览器里编辑优选入口与自建节点，并复制订阅链接。
 
+  <img width="834" height="850" alt="image" src="https://github.com/user-attachments/assets/8ebea362-d6f3-4f39-951a-d9873a313444" />
+
+
 ## 部署步骤
 
 1. 在 Cloudflare Workers 中创建一个 KV 命名空间，
