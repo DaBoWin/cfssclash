@@ -3,7 +3,7 @@
 基于老王cfss改造，项目地址：https://github.com/eooce/Cloudflare-proxy
 感谢老王。
 
-`worker.js` 是一个 Cloudflare Worker，提供 Shadowsocks 以及基于 YAML 的订阅输出：
+`worker.js` 是一个 Cloudflare Worker，cfss+自建节点，提供 Shadowsocks 以及基于 YAML 的订阅输出：
 
 - **/sub/<UUID>**：输出经过 Base64 的 SS 订阅，包含默认 CF 优选节点、自定义原生节点以及自定义优选节点。
 - **/yaml/<UUID>**：输出带有完整节点列表的 YAML 配置，自动为每个节点生成唯一名称，避免客户端因重复命名报错。
